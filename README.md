@@ -1,5 +1,5 @@
 # Ex.06 Restaurant Website
-## Date:20/12/25
+## Date:27/12/25
 
 ## AIM:
 To develop a static Restaurant website to display the food items and services provided by them.
@@ -31,485 +31,542 @@ Publish the website in the given URL.
 ```
 web.html
 
-<html>
+html>
 <head>
-    <title>Welcome to Our Restaurant</title>
-     <link rel="stylesheet" href="styles.css">
-    
+    <title>MY RESTAURANT</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="container">
+    <div class="nav">
+        <a href="web.html" class="active">HOME</a>
+        <a href="menu.html">MENU</a>
+        <a href="admin.html">ADMIN</a>
+        <a href="contact.html">CONTACT</a>
+    </div>
+    <div class="tit">
+       <h5D> BITE IT AND GRAB IT!</h5>
+    </div>
+    <div class="quote-box">
+    <p>FRESH.DELICIOUS.SWEET.TASTY</p>
+    </div>
+    <div class="offer-1">
+        <h9D>50% offer</h9D>
+    </div>
+    <div class="offer-box">
+        <img src="burger.jpg" alt="Monthly offer" class="offer-image">
+        <div class="offer-text">
+            <h4>Weekend Offer</h4>
+            <p class="offer-quote">"Yummy & Tasty chicken burgers are now on offer - don't miss it out !</p> 
+            
+        </div>
+    </div>
+</div>
+<footer class="f">
+    <p>&copy; DHANUSH  M - (25009955)</p>
+</footer>
 
-        
-    
+</body>
+</html>
+
+
+
+menu.html
+    <html>
+<head>
+    <title> Menu</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
-  
-    <nav>
-        <div>
-            <a href="home.html">Home</a>
-            <a href="menu.html">Menu</a>
-            <a href="contact.html">Contact Us</a>
+<div class="menu-container">
+    <div class="nav">
+        <a href="web.html">HOME</a>
+        <a href="menu.html" class="active">MENU</a>
+        <a href="admin.html">ADMIN</a>
+        <a href="contact.html">CONTACT</a>
+    </div>
+
+    <h1 class="menu-title">Our Menu</h1>
+
+    <div class="cards">
+
+        <div class="card">
+            <img src="parotta.jpg" alt="parotta">
+            <h3>parotta-25/-</h3>
+            <p> crispy and smooth.</p>
         </div>
-    </nav>
 
-   
-    <div class="banner">
-         <img src="carusos bistro.jpg" width="210" height="190">
-        <h1>Caruso's Bistro</h1>
-        <p>
-            Discover the finest dining experience with exquisite flavors, exceptional service, 
-            and a warm atmosphere that will leave you wanting more.
-        </p>
-    </div>        
+        <div class="card">
+            <img src="shawarmaa.jpg" alt="shawarmaa">
+            <h3>Shawarmaa-150/-</h3>
+            <p>A rich,creamy dessert with a cheese-based filling.</p>
+        </div>
 
-    <footer>
-        <p>Designed by Dhanush &copy; 2025</p>
-    </footer>
+        <div class="card">
+            <img src="fishfry.jpg" alt="fishfry">
+            <h3>Fish fry-120/-</h3>
+            <p>soft and spicy.</p>
+        </div>
 
+        <div class="card">
+            <img src="tandoori.jpg" alt="Tandoori">
+            <h3>Tandoori-299/-</h3>
+            <p>Spicy chicken .</p>
+        </div>
+
+        <div class="card">
+            <img src="chicken.jpg" alt="chicken briyani">
+            <h3>Chicken briyani-280/-</h3>
+            <p>Hot and Spicy.</p>
+        </div>
+
+        <div class="card">
+            <img src="mutton.jpg" alt="mutton briyani">
+            <h3>Mutton briyani-350/-</h3>
+            <p>Hot and Spicy.</p>
+        </div>
+
+        <div class="card">
+            <img src="ras.jpg" alt="rasamalai">
+            <h3>Rasamalai-150/-</h3>
+            <p>A soft fresh  and filled with delightful toppings .</p>
+        </div>
+
+        <div class="card">
+            <img src="gulab.jpg" alt="gulab jamun">
+            <h3>Gulab Jamun-49/-</h3>
+            <p>Fresh and sweety .</p>
+        </div>
+    </div>
+</div>
+<footer class="f">
+    <p>&copy; DHANUSH M - (25009955)</p>
+</footer>
+</body>
+</html>
+
+contact.html
+
+        <html>
+<head>
+    <title> Contact DETAILS</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="contact-container">
+    <div class="nav">
+        <a href="web.html">HOME</a>
+        <a href="menu.html">MENU</a>
+        <a href="admin.html">ADMIN</a>
+        <a href="contact.html" class="active">CONTACT</a>
+    </div>
+    <div class="contactquote">
+        <p>“ CELEBRATE DAILY.”</p>
+    </div>
+
+    <div class="contact-card">
+        <h1>Contact Us</h1>
+        <p class="contact-quote">“MEET YOU AGAIN!.”</p>
+
+        <div class="contact-details">
+            <p><strong>Phone:</strong> 6380108847 </p>
+            <p><strong>Email:</strong> codfather@gmail.com</p>
+            <p><strong>Address:</strong> codfather restaurant,East street,western city,Mumbai</p>
+        </div>
+    </div>
+</div>
+<footer class="f">
+    <p>&copy; DHANUSH M - (25009955)</p>
+</footer>
+</body>
+</html>
+
+admin.html
+
+<html>
+<head>
+    <title>ADMIN Crew</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="admin-container">
+    <div class="nav">
+        <a href="web.html">HOME</a>
+        <a href="menu.html">MENU</a>
+        <a href="admin.html" class="active">ADMIN</a>
+        <a href="contact.html">CONTACT</a>
+    </div>
+
+    <h1 class="admin-title">OUR TEAM</h1>
+
+    <div class="admin-row">
+
+        <div class="admin-card">
+            <img src="my pic.jpeg">
+            <div class="admin-info">
+                <h3>Dhanush</h3>
+                <p class="role">CEO</p>
+                <p>Leads the restaurant with a focus on quality and customer happiness.</p>
+            </div>
+        </div>
+
+        <div class="admin-card">
+            <img src="surya.jpg">
+            <div class="admin-info">
+                <h3>Surya</h3>
+                <p class="role">Marketing Manager</p>
+                <p>Creates campaigns that make every food lover find us.</p>
+            </div>
+        </div>
+
+        <div class="admin-card">
+            <img src="damu.jpg">
+            <div class="admin-info">
+                <h3>Chef Damu</h3>
+                <p class="role">Chef</p>
+                <p>Designs the signature  dessert menu.</p>
+            </div>
+        </div>
+
+        <div class="admin-card">
+            <img src="venky.jpg">
+            <div class="admin-info">
+                <h3>Venky bhatt</h3>
+                <p class="role">CO-chef</p>
+                <p>Designs the signature  dessert menu.</p>
+            </div>
+        </div>
+
+        <div class="admin-card">
+            <img src="san.jpg">
+            <div class="admin-info">
+                <h3>Santhanam</h3>
+                <p class="role">HR Manager</p>
+                <p>Takes care of the team and training.</p>
+            </div>
+        </div>
+
+
+        <div class="admin-card">
+            <img src="yogi.jpg">
+            <div class="admin-info">
+                <h3>Yogi</h3>
+                <p class="role">Customer Service Manager</p>
+                <p>Makes sure every guest leaves with a smile.</p>
+            </div>
+        </div>
+
+    </div>
+</div>
+<footer class="f">
+    <p>&copy; DHANUSH M - (25009955)</p>
+</footer>
 </body>
 </html>
 
 styles.css
 
- body {
-            margin: 0;
-            font-family: 'Arial', sans-serif;
-            background-color:rgb(10, 118, 154)
-        }
 
-     
-        nav {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            background-color: #333;
-            padding: 10px 20px;
-        }
-
-        nav a {
-            color: white;
-            text-decoration: none;
-            margin: 0 15px;
-            font-size: 1.1em;
-        }
-
-        nav a:hover {
-            color: #f39c12;
-        }
-
-        .banner {
-            height: 100vh;
-            background: url('rest food.jpg') no-repeat center center/cover;
-            color: white;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            text-align: center;
-            padding: 20px;
-        }
-
-        .banner h1 {
-            font-size: 4em;
-            margin: 0;
-            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
-        }
-
-        .banner p {
-            font-size: 1.5em;
-            margin: 20px 0;
-            max-width: 600px;
-            line-height: 1.5;
-        }
-
-        .banner a {
-            padding: 15px 30px;
-            background-color: #f39c12;
-            color: white;
-            font-size: 1.2em;
-            text-decoration: none;
-            border-radius: 5px;
-            transition: background-color 0.3s;
-        }
-
-        .banner a:hover {
-            background-color: #d35400;
-        }
-
-        footer {
-            background-color: #333;
-            color: white;
-            text-align: center;
-            padding: 15px;
-            font-size: 1em;
-        }
-
-        menu.html
-        
-<html>
-<head>
-    <title>Restaurant Menu</title>
-     <link rel="stylesheet" href="menu.css">
+body {
+    margin: 0;
+}
+.container {
+    width: 100%;
+    height: 730px;
+    background-image: url("codfather1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.nav {
+    position: absolute;
+    top: 40px;
+    right: 60px;
+}
+.nav a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 18px;
+    margin-left: 25px;
+    font-weight: bold;
+}
+.nav a:hover {
+    color: rgb(238, 225, 127);
+}
+.nav a.active{
+    color: rgb(123, 27, 27);
+    border-bottom: 2px solid gold;
+}
+.tit {
+    position: absolute;
+    top: 16%;
+    left:6%;
+    font-family: 'merlin';
+    font-size:80;
+    font-weight: 300;
+    color: #b21527;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+}
+.quote-box {
+    position: absolute;
+    margin-top:200px;
+    margin-left:100px;
+    background: rgba(17, 179, 219, 0.792);
+    border-radius: 0px;
+    padding:10px;
+    backdrop-filter: blur(8px);
+    max-width:1000px;
+}
+.quote-box p {
     
-</head>
-<body>
+    font-family: 'dauphin';
+    font-size: 14px;
+    color: #ffffff;
+    letter-spacing: 1px;
+    line-height: 1.6;
+}
+.offer-1{
+    position: absolute;
+    font-family: 'dauphin';
+    font-size: 50px;
+    color: #fdfdfd;
+    margin-top:200px;
+    margin-left:800px;
+    background: rgba(17, 179, 219, 0.792);
+    border-radius: 1px;
+    padding:10px;
+    backdrop-filter: blur(8px);
+    max-width:100px;
+ 
+}
+.offer-box{
+    position: fixed;
+    bottom: 400px;               
+    left: 1000px;
+    width: 460px;
+    background: rgba(17, 179, 219, 0.792);
+    border-radius: 2px;
+    padding:20px;
+    box-shadow: 0 10px 28px rgba(163, 155, 161, 0.895);
+    color: #fff;
+    text-align: center;
+    z-index: 60;
+    backdrop-filter: blur(4px);
+}
+.offer-image{
+    width: 300px;
+    height: 110px;
+    border-radius: 1px;
+    object-fit: cover;
+    border: 0px solid #ffffff;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.35);
+    margin-bottom: 10px;
+}
+.offer-text h4{
+    margin: 0 0 6px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.offer-quote{
+    margin: 0 0 8px;
+    font-family: 'Great Vibes', cursive;
+    font-size: 20px;
+    color: #c8a3a3;
+}
 
-    <header>
-        <h1>Our Menu</h1>
-        <p>Explore the flavors of our finest dishes</p>
-    </header>
-
-    <div class="container">
-        <div class="menu-grid">
-           
-            <div class="menu-item">
-                <img src="tandoori.jpg" alt="Tandoori">
-                <div class="menu-item-content">
-                    <h3>Tandoori Chicken</h3>
-                    <p>spicy</p>
-                    <p class="price">Rs.359</p>
-                </div>
-            </div>
-
-
-            <div class="menu-item">
-                <img src="shawarmaa.jpg" alt="shawarma">
-                <div class="menu-item-content">
-                    <h3>Shawarma</h3>
-                    <p>Special with more creamy </p>
-                    <p class="price">Rs.160</p>
-                </div>
-            </div>
-
-            
-            <div class="menu-item">
-                <img src="fishfry.jpg" alt="fishfry">
-                <div class="menu-item-content">
-                    <h3>Fish fry</h3>
-                    <p>crispy</p>
-                    <p class="price">Rs.120</p>
-                </div>
-            </div>
-
-            
-            <div class="menu-item">
-                <img src="mutton chukka.jpg" alt="Mutton gravy">
-                <div class="menu-item-content">
-                    <h3>Mutton chukka</h3>
-                    <p>Delicious mutton chukka</p>
-                    <p class="price">Rs.299</p>
-                </div>
-            </div>
-
-            <div class="menu-item">
-                <img src="parotta.jpg" alt="porotta">
-                <div class="menu-item-content">
-                    <h3>porotta</h3>
-                    <p>soft and crispy</p>
-                    <p class="price">Rs.30</p>
-                </div>
-            </div>
-
-            <div class="menu-item">
-                <img src="chicken dum biriyani.jpg" alt="biryani">
-                <div class="menu-item-content">
-                    <h3>Chicken dum Biryani</h3>
-                    <p>tander is awesome</p>
-                    <p class="price">Rs.439</p>
-                </div>
-            </div>
-
-            <div class="menu-item">
-                <img src="mutton biriyani.jpg" alt="biriyani">
-                <div class="menu-item-content">
-                    <h3>Mutton biryani</h3>
-                    <p>soft mutton pieces</p>
-                    <p class="price">Rs.449</p>
-                </div>
-            </div>
-
-            <div class="menu-item">
-                <img src="chilli chicken.jpg" alt="ChilliChicken">
-                <div class="menu-item-content">
-                    <h3>ChilliChicken</h3>
-                    <p>Delicious</p>
-                    <p class="price">Rs.229</p>
-                </div>
-            </div>
-
-
-           
-            
-            </div>
-
-            
-            
-            </div>
-        </div>
-    </div>
-
-    <footer>
-        <p>Designed by M.Dhanush &copy; 2025</p>
-    </footer>
-
-</body>
-</html>
-
-menu.css
- body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
-        }
-
-        header {
-            background-color:dimgray;
-            color: white;
-            text-align: center;
-            padding: 40px;
-        }
-
-        header h1 {
-            margin: 0;
-            font-size: 2.5em;
-        }
-
-        header p {
-            margin: 10px 0;
-            font-size: 1.2em;
-        }
-
-        .container {
-            max-width: 1200px;
-            margin: 20px auto;
-            padding: 20px;
-        }
-
-        .menu-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-            gap: 20px;
-        }
-
-        .menu-item {
-            background-color: white;
-            border-radius: 8px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-            overflow: hidden;
-            transition: transform 0.3s, box-shadow 0.3s;
-        }
-
-        .menu-item:hover {
-            transform: scale(1.05);
-            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
-        }
-
-        .menu-item img {
-            width: 100%;
-            height: 200px;
-            object-fit: cover;
-        }
-
-        .menu-item-content {
-            padding: 15px;
-            text-align: center;
-        }
-
-        .menu-item-content h3 {
-            margin: 10px 0;
-            font-size: 1.5em;
-            color: #333;
-        }
-
-        .menu-item-content p {
-            margin: 5px 0;
-            font-size: 1em;
-            color: #666;
-        }
-
-        .menu-item-content .price {
-            font-size: 1.2em;
-            color: #d35400;
-            font-weight: bold;
-        }
-
-        footer {
-            background-color: #333;
-            color: white;
-            text-align: center;
-            padding: 10px;
-            margin-top: 20px;
-        }
-
-        contact.html
-
-        <html>
-<head>
-    <title>Contact Us</title>
-    <link rel="stylesheet" href="contact.css">
-    
-</head>
-<body>
-
-    <header>
-        <h1>Contact Us</h1>
-        <p>We'd love to hear from you!</p>
-    </header>
-
-    <div class="container">
-
-        <!-- Contact Information -->
-        <div class="contact-info">
-            <div>
-                <h3>Visit Us</h3>
-                <p>carusos bistro,east street no:2,blacktown,italy.</p>
-            </div>
-            <div>
-                <h3>Call Us</h3>
-                <p>6380108847</p>
-            </div>
-            <div>
-                <h3>Email Us</h3>
-                <p>carusosbistro@gmail.com</p>
-            </div>
-        </div>
-
-        <!-- Contact Form -->
-        <div class="contact-form">
-            <h3>Send Us a Message</h3>
-            <form action="#">
-                <input type="text" name="name" placeholder="Your Name" required>
-                <input type="email" name="email" placeholder="Your Email" required>
-                <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
-                <button type="submit">Submit</button>
-            </form>
-        </div>
-
-    </div>
-
-    <footer>
-        <p>Designed by Dhanush &copy; 2025</p>
-    </footer>
-
-</body>
-</html>
-
-contact.css
+.menu-container{
+    background-image: url("codfather1.jpg");
+    padding-top:22px;
+}
+.menu-title{
+    text-align: center;
+    margin-bottom: 30px;
+    letter-spacing: 3px;
+    color: rgb(43, 8, 37);
+}
+.menu-container .nav{
+    position: fixed;
+    top: 20px;
+    right: 60px;
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 0 40px 40px;
+}
+.card{
+    width: 220px;
+    background: #d090ba;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+    padding: 15px;
+    text-align: center;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    cursor: pointer;
+}
+.card:hover{
+    transform: translateY(-8px) scale(1.03);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.25);
+}
+.card img{
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 6px;
+    margin-bottom: 10px;
+}
+.card h3{
+    margin: 8px 0;
+}
+.card p{
+    font-size: 14px;
+    color: #555;
+}
 
 
-        
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f8f9fa;
-        }
+.admin-container{
+    height:600px;
+    background: url("codfather1.jpg") center/cover no-repeat;
+    padding: 80px 40px 40px;
+    color: #9e1b47;
+}
+.admin-title{
+    text-align: center;
+    font-size: 40px;
+    letter-spacing: 4px;
+    margin-bottom:20px;
+    text-transform: uppercase;
+}
+.admin-row{
+    display: flex;
+    flex-wrap: wrap;           
+    justify-content: center;
+    gap: 20px;
+}
+.admin-card{
+    width: 260px;              
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgba(128, 16, 65, 0.522);
+    color: #333;
+    border-radius: 18px;
+    padding: 18px 12px;
+    backdrop-filter: blur(4px);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.admin-card:hover{
+    transform: translateY(-6px);
+    box-shadow: 0 10px 24px rgba(0,0,0,0.35);
+}
+.admin-card img{
+    width: 130px;
+    height: 140px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+.admin-info{
+    text-align: center;
+}
+.admin-info h3{
+    margin: 0 0 4px;
+    font-size: 20px;
+}
+.admin-info .role{
+    margin: 0 0 6px;
+    font-weight: 600;
+    font-size: 14px;
+    color: #b0662d;
+}
+.admin-info p{
+    margin: 0;
+    font-size: 13px;
+}
 
-        header {
-            background-color:black;
-            color: white;
-            text-align: center;
-            padding: 30px;
-        }
 
-        header h1 {
-            margin: 0;
-            font-size: 2.5em;
-        }
+.contact-container{
+    min-height: 100vh;
+    background:url(codfather1.jpg) no-repeat center/cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 100px;      
+    padding-bottom: 80px;    
+}
+.contactquote{
+    text-align: center;
+    background-color:rgb(74, 39, 39) ;
+    padding: 1px;
+    border-radius:100px;
+    margin-bottom: 20px;
+}
+.contactquote p{
+    margin-top:50px;;
+    font-family: 'monotype corsiva';
+    font-size: 42px;
+    color: #bfbfbf;
+}
+.contact-card{
+    background: #ffffff;
+    padding: 30px 40px;
+    border-radius: 20px;
+    margin-top:60px;
+    text-align: center;
+    max-width: 480px;
+    width: 90%;
+}
+.contact-card h1{
+    margin-bottom: 10px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+.contact-quote{
+    font-style:normal;
+    color: #7a5b3a;
+    margin-bottom: 20px;
+}
+.contact-details p{
+    margin: 6px 0;
+    font-size: 15px;
+}
 
-        header p {
-            margin: 10px 0;
-            font-size: 1.2em;
-        }
 
-        .container {
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 20px;
-        }
-
-        .contact-info, .contact-form {
-            background-color: white;
-            padding: 20px;
-            margin: 20px 0;
-            border-radius: 8px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-        }
-
-        .contact-info {
-            display: flex;
-            align-items: center;
-            gap: 20px;
-        }
-
-        .contact-info div {
-            flex: 1;
-        }
-
-        .contact-info h3 {
-            margin: 0;
-            color:black;
-        }
-
-        .contact-info p {
-            margin: 5px 0;
-            font-size: 1.1em;
-        }
-
-        .contact-info img {
-            width: 80px;
-            height: 80px;
-        }
-
-        .contact-form h3 {
-            margin-bottom: 20px;
-            color: #333;
-        }
-
-        .contact-form form {
-            display: flex;
-            flex-direction: column;
-            gap: 15px;
-        }
-
-        .contact-form input, .contact-form textarea {
-            padding: 10px;
-            border: 1px solid #ccc;
-            border-radius: 5px;
-            font-size: 1em;
-            width: 100%;
-        }
-
-        .contact-form button {
-            padding: 10px;
-            background-color:black;
-            color: white;
-            border: none;
-            border-radius: 5px;
-            font-size: 1em;
-            cursor: pointer;
-        }
-
-        .contact-form button:hover {
-            background-color:black;
-        }
-
-        footer {
-            background-color: #333;
-            color: white;
-            text-align: center;
-            padding: 10px;
-            margin-top: 20px;
-        }
+.f{
+    background: #111;
+    color: #f5f5f5;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 13px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 50;
+}
+.f p{
+    margin: 0;
+    letter-spacing: 1px;
+}
     
 
 ```
 
 ## OUTPUT:
-![alt text](<Screenshot (42).png>)
-![alt text](<Screenshot (43).png>)
-![alt text](<Screenshot (44).png>)
-![alt text](<Screenshot (45).png>)
+![alt text](<Screenshot (52).png>)
+![alt text](<Screenshot (53).png>)
+![alt text](<Screenshot (54).png>)
+![alt text](<Screenshot (55).png>)
 
 ## RESULT:
 The program for designing software company website using HTML and CSS is completed successfully.
